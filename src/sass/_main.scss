@@ -1,10 +1,7 @@
-
-
-
 /* MAIN
 --------------------------------------------------------- */
 body {
-    font-family: 'source-sans-pro', sans-serif;
+    font-family: "source-sans-pro", sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -43,17 +40,17 @@ body {
 }
 
 .page-title {
-    position: fixed;
-    top: 9rem;
-    left: 5vw;
+    // position: fixed;
+    // top: 9rem;
+    // left: 5vw;
     z-index: -1;
 
     white-space: nowrap;
     font-size: calc(4vw + 8rem);
-    line-height: .975;
+    line-height: 0.975;
     color: var(--textColor);
 
-    opacity: .1;
+    opacity: 0.1;
 }
 
 .line-ctn {
@@ -66,5 +63,5 @@ body {
 
     line-height: 1.5;
 
-    border-bottom: .1rem solid;
+    border-bottom: 0.1rem solid;
 }

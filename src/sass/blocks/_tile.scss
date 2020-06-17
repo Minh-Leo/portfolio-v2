@@ -5,9 +5,10 @@
 .tile__fig {
     position: relative;
     width: 100%;
+    overflow: hidden;
 
     &::before {
-        content: '';
+        content: "";
 
         display: block;
         padding-top: 136.36%;
@@ -24,7 +25,7 @@
     object-fit: cover;
     object-position: center;
 
-    transition: opacity .3s;
+    transition: opacity 0.3s;
 
     &.is-loaded {
         opacity: 0;
@@ -39,7 +40,7 @@
 
     font-size: 1.4rem;
 
-    transition: color .3s;
+    transition: color 0.3s;
 
     .tile:hover & {
         @include hover(false) {
@@ -47,7 +48,6 @@
         }
     }
 }
-
 
 .tile__title {
     margin-left: -10%;

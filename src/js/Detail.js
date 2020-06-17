@@ -1,4 +1,4 @@
-import { TweenMax as TM, Power2, Power3, Power4, Expo } from 'gsap/all'
+import { TweenMax as TM, Power2, Power3 } from 'gsap/all'
 import { SplitText as ST } from './vendors/gsap/SplitText'
 import { wrap, unwrap, ev } from './utils/utils'
 
