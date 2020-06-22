@@ -75,8 +75,7 @@ export default class Scene {
         this.mainScene.add(ambientlight);
     }
 
-    /* Handlers
-    --------------------------------------------------------- */
+    /* Handlers */
 
     onResize() {
         this.W = window.innerWidth;
